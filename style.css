@@ -1,0 +1,133 @@
+#heading{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    background-color:wheat;
+    max-width: auto;
+    min-width: auto;
+}
+#name_input{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    padding-left: 20px;
+    max-width: auto;
+    min-width: auto;
+   border-color:orangered;
+   border-radius: 20px;
+}
+#address_input{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    padding-left: 20px;
+    max-width: auto;
+    min-width: auto;
+    border-color:orangered;
+   border-radius: 20px;
+}
+#receiver_name_input{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    padding-left: 20px;
+    max-width: auto;
+    min-width: auto;
+    border-color:orangered;
+   border-radius: 20px;
+}
+#receiver_address_input{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    
+    width:200px;
+    border-color:orangered;
+   border-radius: 20px;
+}
+#reason{
+    border-radius: 20px;
+    width: 100px;
+}
+#Fromdiv{
+    
+    padding-left:35px ;
+
+    
+}
+
+#Todiv{
+    padding-left:35px ;
+}
+#Contentdiv{
+    padding-left:35px ;
+}
+#Tqdiv{
+    color: brown;
+    padding-left: 300px;
+}
+#tqname{
+    padding-left:500px;
+}
+#content{
+    color:green;
+
+}
+#From{
+    
+    color:green;
+
+}
+#fromdate{
+    border-radius:20px;
+}
+#todate{
+    border-radius:20px;
+}
+#submit{
+    border-color:aquamarine;
+    background-color: aqua;
+}
+#To{
+    color:green;
+}
+#bydiv{
+    position: relative;
+    right: -500px;
+    color: darkmagenta;
+    
+}
+#total_days{
+    border-radius: 200px;
+}
+#horizontal_line{
+    color:cornflowerblue ;
+}
+#yours{
+    
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    background-color:wheat;
+    max-width: auto;
+    min-width: auto;
+   
+}

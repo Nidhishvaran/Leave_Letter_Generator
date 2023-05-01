@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Letter Generator</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1 id = "heading">Generate Your Leave Letter Here!</h1>
+    <!--<img src = "paper.png" id = "bgimg"-->
+    <center>
+    <input type = "text" placeholder="Enter your name" id = "name_input">
+    <br>
+    <input type="text" placeholder="Enter your Address" id = "address_input">
+    <br>
+    <input type = "text" id = "receiver_name_input" placeholder="Enter the receiver's name">
+    <br>
+    <input type = "text" id = "receiver_address_input" placeholder="Enter the receiver's address">
+    <br>  
+    <input type = "date"id = "fromdate" required >  
+    <input type = "date"id = "todate" required value=""><br>
+    <input type="number" id = "total_days" placeholder="select the number of days" value = 1 min="1" max="100">
+    <label>Reason</label>
+    <select id = "reason">
+            <option>viral fever</option>
+            <option>function</option>
+            <option>personal</option>
+            <option>others</option>
+        </select><br><br>
+        <label>Letter Type</label>
+    <select id = "pro">
+        <option>School</option>
+        <option>Office</option>
+    </select><br>
+        <button  type = "submit" id = "submit" onclick="Generate()">Generate!</button>
+        
+    </center>
+    <hr id = "horizontal_line"></hr>
+    <h2 id="yours">your leave letter will be appear here!</h2>
+    
+    <p id="From">
+        
+        <div id = "Fromdiv">
+            
+        </div>
+    </p><br><br>
+    <p id = "To">
+        <div id = "Todiv">
+            
+
+        </div>
+
+    </p>
+    <br><br>
+    <p id = "content">
+        
+        <div id = "Contentdiv">
+            
+        </div>
+    </p>
+    <p id = "tq">
+        <div id = "Tqdiv">
+            
+
+        </div>
+
+
+    </p>
+    <p id = "by">
+        <div id = "bydiv">
+       
+           
+            
+
+        </div>
+        <div id = "tqname"></div>
+
+    </p>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
