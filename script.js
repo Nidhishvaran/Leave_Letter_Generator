@@ -1,6 +1,6 @@
 function Generate()
 {
-    alert("I am an alert box!");
+    alert(" if you using a mobile ,please turn your mobie landscape to get a beller letter view");
     let content;
     let name = document.getElementById("name_input").value
     let address = document.querySelector("#address_input").value
